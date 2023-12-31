@@ -3,11 +3,11 @@
     ```bash
     git clone https://github.com/dekay7/notipier.git
     ```
-2. Enter the notipier directory
+2. Enter the notipier directory.
     ```bash
     cd notipier
     ```
-3. Rename `example.env` to `.env`
+3. Rename `example.env` to `.env`.
     ```bash
     mv example.env .env
     ```
@@ -26,4 +26,12 @@
 7. Install the requirements via pip. 
     ```bash
     pip install -r requirements.txt
+    ```
+8. Create a hard link of the service file to `/etc/systemd/system`.
+    ```bash
+    ln notipier.service /etc/systemd/system/notipier.service
+    ```
+9. Enable the service to launch at startup and start the service. 
+    ```bash
+    sudo systemctl enable notipier.service && sudo systemctl start notipier.service
     ```
