@@ -27,6 +27,10 @@
     ```bash
     pip install -r requirements.txt
     ```
+8. Deactivate the virtual environment.
+    ```bash
+    deactivate
+    ```
 8. Create a hard link of the service file to `/etc/systemd/system`.
     ```bash
     ln notipier.service /etc/systemd/system/notipier.service
@@ -35,3 +39,4 @@
     ```bash
     sudo systemctl enable notipier.service && sudo systemctl start notipier.service
     ```
+10. Reboot your system and view your **System Boot** message!
