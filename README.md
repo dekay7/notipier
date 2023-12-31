@@ -1,5 +1,5 @@
-# Notipier Manual Installation
-1. Clone the github repository using:
+# notipier Manual Installation
+1. Clone the GitHub repository using:
     ```bash
     git clone https://github.com/dekay7/notipier.git
     ```
@@ -15,7 +15,7 @@
     ```bash
     nano .env
     ```
-5. Initialize the python virtual environment. 
+5. Initialize the Python virtual environment. 
     ```bash
     python -m venv .
     ```
