@@ -55,7 +55,7 @@
         - Vim: `:wq`
 10. Create a hard link of the service file to `/etc/systemd/system`.
     ```bash
-    ln notipier.service /etc/systemd/system/notipier.service
+    sudo ln notipier.service /etc/systemd/system/notipier.service
     ```
 11. Enable the service to launch at startup and start the service. 
     ```bash
