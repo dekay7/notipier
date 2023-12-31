@@ -1,4 +1,4 @@
-# notipier Manual Installation
+# notipier manual installation
 1. Clone the GitHub repository using:
     ```bash
     git clone https://github.com/dekay7/notipier.git
