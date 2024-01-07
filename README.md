@@ -19,7 +19,7 @@
     or
 
     ```bash
-    vim .env
+    vi .env
     ```
     - Be sure to save the edits to the file when complete
         - nano: `Ctrl+X, Y, Enter`
@@ -48,7 +48,7 @@
     or
 
     ```bash
-    vim notipier.service
+    vi notipier.service
     ```
     - Be sure to save the edits to the file when complete
         - nano: `Ctrl+X, Y, Enter`
